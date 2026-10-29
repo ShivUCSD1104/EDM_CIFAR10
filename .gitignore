@@ -1,0 +1,24 @@
+# Notebook downloads and generated results. Each notebook recreates these.
+dsc180-d32-cifar10-edm-lab/downloads/
+dsc180-d32-cifar10-edm-lab/outputs/
+training-runs/
+
+# MNIST lab: the notebooks download the weights and write the helper modules.
+dsc180-d32-mnist-guidance-lab/*.pt
+dsc180-d32-mnist-guidance-lab/*.npz
+dsc180-d32-mnist-guidance-lab/mnist_guidance_lab.py
+dsc180-d32-mnist-guidance-lab/lab.py
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+.env
+
+# macOS and editor scratch
+.DS_Store
+.notebook/
